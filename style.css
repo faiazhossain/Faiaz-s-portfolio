@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+span {
+  font-family: "Lobster", cursive;
+  font-size: 32px;
+  color: blueviolet;
+}
+.welcome {
+  font-family: "Lobster Two", cursive;
+}
