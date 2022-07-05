@@ -93,11 +93,11 @@ section {
   flex-direction: column;
   background-color: azure;
   text-align: justify;
-  padding: 20px;
-  width: 38%;
+  padding: 24px;
+  width: 48%;
   box-shadow: 2px 2px 14px rgb(111, 1, 148);
   margin: 10px;
-  gap: 30px;
+  gap: 40px;
   border-radius: 20px;
   border-width: 0 0 0 8px;
   border-style: solid;
