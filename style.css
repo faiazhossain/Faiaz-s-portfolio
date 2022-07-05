@@ -72,7 +72,7 @@ section {
   width: fit-content;
 }
 .dream-big {
-  background-image: url(images/dotted.png), url(images/dream-bg.png);
+  background-image: url("images/dotted.png"), url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: right bottom, right top 290px;
@@ -94,11 +94,16 @@ section {
   background-color: azure;
   text-align: justify;
   padding: 20px;
-  width: 40%;
-  border-left: 6px solid blueviolet
-  box-shadow: 2px 2px 14px black;
+  width: 38%;
+  box-shadow: 2px 2px 14px rgb(111, 1, 148);
   margin: 10px;
   gap: 30px;
+  border-radius: 20px;
+  border-width: 0 0 0 8px;
+  border-style: solid;
+  border-image: linear-gradient(180deg, rgb(226, 107, 252), rgb(148, 0, 246)) 1
+    100%;
+  border-radius: 10px;
 }
 .exp {
   color: rgba(162, 0, 255, 0.949);
