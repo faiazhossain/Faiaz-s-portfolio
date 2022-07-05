@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Lato", sans-serif;
   font-size: 20px;
@@ -10,6 +13,13 @@ body {
   font-size: 52px;
   color: blueviolet;
 }
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  background-size: 60px 300px;
+  background-origin: padding-box;
+}
+
 h1,
 h2,
 h3 {
@@ -19,16 +29,40 @@ h3 {
 span {
   color: blueviolet;
 }
+p {
+  text-align: justify;
+}
 .welcome {
   font-family: "Lobster Two", cursive;
 }
 .container-blog {
-  width: 50%;
+  width: 100%;
   padding-left: 10%;
 }
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
 .container-blog img {
-  width: 80%;
+  width: 90%;
 }
 section {
   display: flex;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(
+    190deg,
+    rgb(157, 0, 255),
+    rgb(68, 37, 180),
+    rgb(157, 0, 255)
+  );
+  color: white;
+  padding: 8px 32px;
+  border-radius: 10px;
+  font-weight: 700;
+  width: 25%;
 }
