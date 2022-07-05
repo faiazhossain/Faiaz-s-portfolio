@@ -72,7 +72,7 @@ section {
   width: fit-content;
 }
 .dream-big {
-  background-image: url(/images/dotted.png), url(/images/dream-bg.png);
+  background-image: url(images/dotted.png), url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: right bottom, right top 290px;
