@@ -20,7 +20,7 @@ body {
   color: blueviolet;
 }
 .top-banner {
-  background-image: url(images/top-banner.png);
+  background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
   background-size: 60px 300px;
   /* background-origin: padding-box; */
@@ -95,7 +95,7 @@ section {
   text-align: justify;
   padding: 20px;
   width: 40%;
-  border-left: 6px solid rgb(144, 0, 255);
+  border-left: 6px solid blueviolet
   box-shadow: 2px 2px 14px black;
   margin: 10px;
   gap: 30px;
